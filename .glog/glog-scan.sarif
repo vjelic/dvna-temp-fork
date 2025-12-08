@@ -12,6 +12,50 @@
           "informationUri": "https://www.glog.ai",
           "rules": [
             {
+              "id": "20dbfa51-beb8-3d15-99f7-f93f54a67525",
+              "name": "Vulnerable Hash Algorithm",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/327.html](https://cwe.mitre.org/data/definitions/327.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-327",
+                    "url": "https://cwe.mitre.org/data/definitions/327.html"
+                  }
+                ],
+                "severity": "HIGH",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-327"
+                ]
+              }
+            },
+            {
+              "id": "3b9b1a65-6df9-34c9-865c-92e11c2bd3f6",
+              "name": "\"Remote Code Execution Vulnerability via Object Deserialization in serialize.unserialize Function\"",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/Resources](https://owasp.org/www-community/vulnerabilities/Resources)\n, [https://owasp.org/www-community/vulnerabilities/Top_10_2017](https://owasp.org/www-community/vulnerabilities/Top_10_2017)\n, [https://owasp.org/www-community/vulnerabilities/Cheat_Sheet](https://owasp.org/www-community/vulnerabilities/Cheat_Sheet)\n, [https://cwe.mitre.org/data/definitions/502.html](https://cwe.mitre.org/data/definitions/502.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                  }
+                ],
+                "severity": "MEDIUM",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-502"
+                ]
+              }
+            },
+            {
               "id": "a46d83fc-ded8-3469-8316-e0528591d6d3",
               "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
               "helpUri": "https://www.glog.ai/",
@@ -30,6 +74,64 @@
                 "kind": "FAIL",
                 "tags": [
                   "CWE-79"
+                ]
+              }
+            },
+            {
+              "id": "b319a673-91d8-3d13-87d2-3721942851a7",
+              "name": "Doubtful Remark",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://cheatsheetseries.owasp.org/](https://cheatsheetseries.owasp.org/)\n"
+              },
+              "properties": {
+                "cwe": [],
+                "severity": "LOW",
+                "kind": "FAIL"
+              }
+            },
+            {
+              "id": "21ea3123-3174-3d79-b784-74a27a5252e9",
+              "name": "\"Postgresql Server Vulnerability to MITN Attacks due to Disabled TLS and Sequelize's Non-Enforcement of TLS\"",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/319.html](https://cwe.mitre.org/data/definitions/319.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-319",
+                    "url": "https://cwe.mitre.org/data/definitions/319.html"
+                  }
+                ],
+                "severity": "MEDIUM",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-319"
+                ]
+              }
+            },
+            {
+              "id": "c5acd640-04b7-38a5-9c7a-0d8fd8be07d7",
+              "name": "Vulnerable Hash Algorithm",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/327.html](https://cwe.mitre.org/data/definitions/327.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-327",
+                    "url": "https://cwe.mitre.org/data/definitions/327.html"
+                  }
+                ],
+                "severity": "HIGH",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-327"
                 ]
               }
             },
@@ -78,126 +180,24 @@
               }
             },
             {
-              "id": "b319a673-91d8-3d13-87d2-3721942851a7",
-              "name": "Doubtful Remark",
+              "id": "266a70bf-e91c-31bb-8b33-7be81335992b",
+              "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
               "helpUri": "https://www.glog.ai/",
               "help": {
                 "text": "",
-                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://cheatsheetseries.owasp.org/](https://cheatsheetseries.owasp.org/)\n"
-              },
-              "properties": {
-                "cwe": [],
-                "severity": "LOW",
-                "kind": "FAIL"
-              }
-            },
-            {
-              "id": "c5acd640-04b7-38a5-9c7a-0d8fd8be07d7",
-              "name": "Vulnerable Hash Algorithm",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/327.html](https://cwe.mitre.org/data/definitions/327.html)\n"
+                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/Resources](https://owasp.org/www-community/vulnerabilities/Resources)\n, [https://cwe.mitre.org/data/definitions/79.html](https://cwe.mitre.org/data/definitions/79.html)\n"
               },
               "properties": {
                 "cwe": [
                   {
-                    "id": "CWE-327",
-                    "url": "https://cwe.mitre.org/data/definitions/327.html"
-                  }
-                ],
-                "severity": "HIGH",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-327"
-                ]
-              }
-            },
-            {
-              "id": "21ea3123-3174-3d79-b784-74a27a5252e9",
-              "name": "\"Postgresql Server Vulnerability to MITN Attacks due to Disabled TLS and Sequelize's Non-Enforcement of TLS\"",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/319.html](https://cwe.mitre.org/data/definitions/319.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-319",
-                    "url": "https://cwe.mitre.org/data/definitions/319.html"
+                    "id": "CWE-79",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
                   }
                 ],
                 "severity": "MEDIUM",
                 "kind": "FAIL",
                 "tags": [
-                  "CWE-319"
-                ]
-              }
-            },
-            {
-              "id": "20dbfa51-beb8-3d15-99f7-f93f54a67525",
-              "name": "Vulnerable Hash Algorithm",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/327.html](https://cwe.mitre.org/data/definitions/327.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-327",
-                    "url": "https://cwe.mitre.org/data/definitions/327.html"
-                  }
-                ],
-                "severity": "HIGH",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-327"
-                ]
-              }
-            },
-            {
-              "id": "3b9b1a65-6df9-34c9-865c-92e11c2bd3f6",
-              "name": "\"Remote Code Execution Vulnerability via Object Deserialization in serialize.unserialize Function\"",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/Resources](https://owasp.org/www-community/vulnerabilities/Resources)\n, [https://owasp.org/www-community/vulnerabilities/Top_10_2017](https://owasp.org/www-community/vulnerabilities/Top_10_2017)\n, [https://owasp.org/www-community/vulnerabilities/Cheat_Sheet](https://owasp.org/www-community/vulnerabilities/Cheat_Sheet)\n, [https://cwe.mitre.org/data/definitions/502.html](https://cwe.mitre.org/data/definitions/502.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-502",
-                    "url": "https://cwe.mitre.org/data/definitions/502.html"
-                  }
-                ],
-                "severity": "MEDIUM",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-502"
-                ]
-              }
-            },
-            {
-              "id": "c8c2e05e-e17f-3430-9a4a-0551ccd35be6",
-              "name": "Vulnerable Hash Algorithm",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/327.html](https://cwe.mitre.org/data/definitions/327.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-327",
-                    "url": "https://cwe.mitre.org/data/definitions/327.html"
-                  }
-                ],
-                "severity": "HIGH",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-327"
+                  "CWE-79"
                 ]
               }
             },
@@ -224,12 +224,12 @@
               }
             },
             {
-              "id": "266a70bf-e91c-31bb-8b33-7be81335992b",
+              "id": "2a87e4aa-7bb1-34b0-9997-53cf7be00f72",
               "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
               "helpUri": "https://www.glog.ai/",
               "help": {
                 "text": "",
-                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/Resources](https://owasp.org/www-community/vulnerabilities/Resources)\n, [https://cwe.mitre.org/data/definitions/79.html](https://cwe.mitre.org/data/definitions/79.html)\n"
+                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/79.html](https://cwe.mitre.org/data/definitions/79.html)\n"
               },
               "properties": {
                 "cwe": [
@@ -242,50 +242,6 @@
                 "kind": "FAIL",
                 "tags": [
                   "CWE-79"
-                ]
-              }
-            },
-            {
-              "id": "ba115ef7-d9a2-341d-83d4-44b83813a964",
-              "name": "Vulnerable Hash Algorithm",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/327.html](https://cwe.mitre.org/data/definitions/327.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-327",
-                    "url": "https://cwe.mitre.org/data/definitions/327.html"
-                  }
-                ],
-                "severity": "HIGH",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-327"
-                ]
-              }
-            },
-            {
-              "id": "d6457d2b-7a66-357e-8fae-e1e7b70dc714",
-              "name": "Unsecured Web Address",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/Resources](https://owasp.org/www-community/vulnerabilities/Resources)\n, [https://cwe.mitre.org/data/definitions/319.html](https://cwe.mitre.org/data/definitions/319.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-319",
-                    "url": "https://cwe.mitre.org/data/definitions/319.html"
-                  }
-                ],
-                "severity": "MEDIUM",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-319"
                 ]
               }
             },
@@ -312,6 +268,50 @@
               }
             },
             {
+              "id": "c8c2e05e-e17f-3430-9a4a-0551ccd35be6",
+              "name": "Vulnerable Hash Algorithm",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/327.html](https://cwe.mitre.org/data/definitions/327.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-327",
+                    "url": "https://cwe.mitre.org/data/definitions/327.html"
+                  }
+                ],
+                "severity": "HIGH",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-327"
+                ]
+              }
+            },
+            {
+              "id": "ba115ef7-d9a2-341d-83d4-44b83813a964",
+              "name": "Vulnerable Hash Algorithm",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/327.html](https://cwe.mitre.org/data/definitions/327.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-327",
+                    "url": "https://cwe.mitre.org/data/definitions/327.html"
+                  }
+                ],
+                "severity": "HIGH",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-327"
+                ]
+              }
+            },
+            {
               "id": "90408b14-a210-379b-a93e-9fa7a1965540",
               "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
               "helpUri": "https://www.glog.ai/",
@@ -330,6 +330,28 @@
                 "kind": "FAIL",
                 "tags": [
                   "CWE-79"
+                ]
+              }
+            },
+            {
+              "id": "d6457d2b-7a66-357e-8fae-e1e7b70dc714",
+              "name": "Unsecured Web Address",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/Resources](https://owasp.org/www-community/vulnerabilities/Resources)\n, [https://cwe.mitre.org/data/definitions/319.html](https://cwe.mitre.org/data/definitions/319.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-319",
+                    "url": "https://cwe.mitre.org/data/definitions/319.html"
+                  }
+                ],
+                "severity": "MEDIUM",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-319"
                 ]
               }
             },
@@ -367,56 +389,6 @@
       "language": "en-US",
       "results": [
         {
-          "ruleId": "c01f2e30-ff1e-354d-a93d-0454bcb3725f",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Evaluation of Untrusted Data Vulnerability"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "core/appHandler.js"
-                },
-                "region": {
-                  "startLine": 197,
-                  "startColumn": 18,
-                  "endLine": 198,
-                  "endColumn": 4,
-                  "charOffset": 4092,
-                  "charLength": 23,
-                  "snippet": {
-                    "text": "eval(req.body.eqn)\n\t\t})",
-                    "rendered": {
-                      "text": "eval(req.body.eqn)\n\t\t})",
-                      "markdown": "`eval(req.body.eqn)\n\t\t})`"
-                    }
-                  },
-                  "sourceLanguage": "javascript"
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "2f7f9d49a3c5d376560fcab7887d866c106e50fd5b936328215e3e2f6efb782f",
-            "glog-pfp-ruleFileCode/v1": "03b1185bb2b5f9cf188335dce08976365884112ee6bc669a4f96798afe1ace57"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "03b1185bb2b5f9cf188335dce08976365884112ee6bc669a4f96798afe1ace57"
-          },
-          "properties": {
-            "DevSkimSeverity": "ManualReview",
-            "DevSkimConfidence": "High",
-            "tags": [
-              "Python.DangerousFunctionCall",
-              "JavaScript.DangerousFunctionCall",
-              "TypeScript.DangerousFunctionCall",
-              "PHP.DangerousFunctionCall"
-            ]
-          }
-        },
-        {
           "ruleId": "a46d83fc-ded8-3469-8316-e0528591d6d3",
           "kind": "fail",
           "level": "warning",
@@ -452,153 +424,11 @@
           "properties": {}
         },
         {
-          "ruleId": "c5acd640-04b7-38a5-9c7a-0d8fd8be07d7",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Vulnerable Hash Algorithm"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "core/authHandler.js"
-                },
-                "region": {
-                  "startLine": 78,
-                  "startColumn": 27,
-                  "endLine": 78,
-                  "endColumn": 30,
-                  "charOffset": 1815,
-                  "charLength": 3,
-                  "snippet": {
-                    "text": "md5",
-                    "rendered": {
-                      "text": "md5",
-                      "markdown": "`md5`"
-                    }
-                  },
-                  "sourceLanguage": "javascript"
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "abe0662902751f87588bf176c92920106fc6cd26649a57c8b1edc8805d4aa9bb",
-            "glog-pfp-ruleFileCode/v1": "c7efde322d7c6f24a70e6a5b2a1c0ae22f474f348eb2a5e35c9f31542f8b94d6"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "c7efde322d7c6f24a70e6a5b2a1c0ae22f474f348eb2a5e35c9f31542f8b94d6"
-          },
-          "fixes": [
-            {
-              "description": {
-                "text": "A weak or broken hash algorithm was detected."
-              },
-              "artifactChanges": [
-                {
-                  "artifactLocation": {
-                    "uri": "core/authHandler.js"
-                  },
-                  "replacements": [
-                    {
-                      "deletedRegion": {
-                        "charOffset": 1815,
-                        "charLength": 3
-                      },
-                      "insertedContent": {
-                        "text": "sha512"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "description": {
-                "text": "A weak or broken hash algorithm was detected."
-              },
-              "artifactChanges": [
-                {
-                  "artifactLocation": {
-                    "uri": "core/authHandler.js"
-                  },
-                  "replacements": [
-                    {
-                      "deletedRegion": {
-                        "charOffset": 1815,
-                        "charLength": 3
-                      },
-                      "insertedContent": {
-                        "text": "sha256"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "properties": {
-            "DevSkimSeverity": "Critical",
-            "DevSkimConfidence": "High",
-            "tags": [
-              "Cryptography.BannedHashAlgorithm"
-            ]
-          }
-        },
-        {
-          "ruleId": "b319a673-91d8-3d13-87d2-3721942851a7",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Doubtful Remark"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "core/appHandler.js"
-                },
-                "region": {
-                  "startLine": 216,
-                  "startColumn": 4,
-                  "endLine": 216,
-                  "endColumn": 8,
-                  "charOffset": 4436,
-                  "charLength": 4,
-                  "snippet": {
-                    "text": "TODO",
-                    "rendered": {
-                      "text": "TODO",
-                      "markdown": "`TODO`"
-                    }
-                  },
-                  "sourceLanguage": "javascript"
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "3e6031d2abe2247529877388749f9b7bf5771496dbe016170819f51624881a95",
-            "glog-pfp-ruleFileCode/v1": "1786e4c9c7c3c20f5975529dec2bc61401fc71884bbad9edb461b7824a3f77f8"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "1786e4c9c7c3c20f5975529dec2bc61401fc71884bbad9edb461b7824a3f77f8"
-          },
-          "properties": {
-            "DevSkimSeverity": "ManualReview",
-            "DevSkimConfidence": "High",
-            "tags": [
-              "Hygiene.Comment.Suspicious"
-            ]
-          }
-        },
-        {
-          "ruleId": "d956d5d7-fa6d-32d3-9cd0-0b60c5231067",
+          "ruleId": "3b9b1a65-6df9-34c9-865c-92e11c2bd3f6",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "XSS Vulnerability from User-Controlled Data in HTML String"
+            "text": "\"Remote Code Execution Vulnerability via Object Deserialization in serialize.unserialize Function\""
           },
           "locations": [
             {
@@ -608,23 +438,23 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 59,
-                  "startColumn": 2,
-                  "endLine": 73,
-                  "endColumn": 4,
+                  "startLine": 218,
+                  "startColumn": 18,
+                  "endLine": 218,
+                  "endColumn": 81,
                   "snippet": {
-                    "text": "\tdb.Product.findAll({\n\t\twhere: {\n\t\t\tname: {\n\t\t\t\t[Op.like]: '%' + req.body.name + '%'\n\t\t\t}\n\t\t}\n\t}).then(products => {\n\t\toutput = {\n\t\t\tproducts: products,\n\t\t\tsearchTerm: req.body.name\n\t\t}\n\t\tres.render('app/products', {\n\t\t\toutput: output\n\t\t})\n\t})"
+                    "text": "\t\tvar products = serialize.unserialize(req.files.products.data.toString('utf8'))"
                   }
                 }
               }
             }
           ],
           "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "bfa71a8174f21d74aa29f178623cfeb94b3b482472d0d439940538a0671362d6",
-            "glog-pfp-ruleFileCode/v1": "20d2d5415d7345438ef551832b5378d123b27b512c818cf5e44a418b55a0bd9e"
+            "glog-pfp-ruleFileLineCode/v1": "19ca046e636ab9b91b643cee55596e145d0bb265b23cf4b159058965b1a59631",
+            "glog-pfp-ruleFileCode/v1": "2694d78e333e86293e2ad230603d47ff2fc76d9837c4c6339fcc11b47ddfe9f1"
           },
           "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "20d2d5415d7345438ef551832b5378d123b27b512c818cf5e44a418b55a0bd9e"
+            "glog-fp-ruleFileCode/v1": "2694d78e333e86293e2ad230603d47ff2fc76d9837c4c6339fcc11b47ddfe9f1"
           },
           "properties": {}
         },
@@ -660,6 +490,41 @@
           },
           "fingerprints": {
             "glog-fp-ruleFileCode/v1": "ec8b5d556822a64dc790d948eb569e9f826c707ed332fe5e8352d56b79ceb90e"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "d956d5d7-fa6d-32d3-9cd0-0b60c5231067",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "XSS Vulnerability from User-Controlled Data in HTML String"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/appHandler.js",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 2,
+                  "endLine": 73,
+                  "endColumn": 4,
+                  "snippet": {
+                    "text": "\tdb.Product.findAll({\n\t\twhere: {\n\t\t\tname: {\n\t\t\t\t[Op.like]: '%' + req.body.name + '%'\n\t\t\t}\n\t\t}\n\t}).then(products => {\n\t\toutput = {\n\t\t\tproducts: products,\n\t\t\tsearchTerm: req.body.name\n\t\t}\n\t\tres.render('app/products', {\n\t\t\toutput: output\n\t\t})\n\t})"
+                  }
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "bfa71a8174f21d74aa29f178623cfeb94b3b482472d0d439940538a0671362d6",
+            "glog-pfp-ruleFileCode/v1": "20d2d5415d7345438ef551832b5378d123b27b512c818cf5e44a418b55a0bd9e"
+          },
+          "fingerprints": {
+            "glog-fp-ruleFileCode/v1": "20d2d5415d7345438ef551832b5378d123b27b512c818cf5e44a418b55a0bd9e"
           },
           "properties": {}
         },
@@ -759,39 +624,196 @@
           }
         },
         {
-          "ruleId": "3b9b1a65-6df9-34c9-865c-92e11c2bd3f6",
+          "ruleId": "b319a673-91d8-3d13-87d2-3721942851a7",
           "kind": "fail",
-          "level": "warning",
+          "level": "note",
           "message": {
-            "text": "\"Remote Code Execution Vulnerability via Object Deserialization in serialize.unserialize Function\""
+            "text": "Doubtful Remark"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "core/appHandler.js",
-                  "uriBaseId": "%SRCROOT%"
+                  "uri": "core/appHandler.js"
                 },
                 "region": {
-                  "startLine": 218,
-                  "startColumn": 18,
-                  "endLine": 218,
-                  "endColumn": 81,
+                  "startLine": 216,
+                  "startColumn": 4,
+                  "endLine": 216,
+                  "endColumn": 8,
+                  "charOffset": 4436,
+                  "charLength": 4,
                   "snippet": {
-                    "text": "\t\tvar products = serialize.unserialize(req.files.products.data.toString('utf8'))"
-                  }
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
                 }
               }
             }
           ],
           "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "19ca046e636ab9b91b643cee55596e145d0bb265b23cf4b159058965b1a59631",
-            "glog-pfp-ruleFileCode/v1": "2694d78e333e86293e2ad230603d47ff2fc76d9837c4c6339fcc11b47ddfe9f1"
+            "glog-pfp-ruleFileLineCode/v1": "3e6031d2abe2247529877388749f9b7bf5771496dbe016170819f51624881a95",
+            "glog-pfp-ruleFileCode/v1": "1786e4c9c7c3c20f5975529dec2bc61401fc71884bbad9edb461b7824a3f77f8"
           },
           "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "2694d78e333e86293e2ad230603d47ff2fc76d9837c4c6339fcc11b47ddfe9f1"
+            "glog-fp-ruleFileCode/v1": "1786e4c9c7c3c20f5975529dec2bc61401fc71884bbad9edb461b7824a3f77f8"
           },
-          "properties": {}
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "c5acd640-04b7-38a5-9c7a-0d8fd8be07d7",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerable Hash Algorithm"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/authHandler.js"
+                },
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 27,
+                  "endLine": 78,
+                  "endColumn": 30,
+                  "charOffset": 1815,
+                  "charLength": 3,
+                  "snippet": {
+                    "text": "md5",
+                    "rendered": {
+                      "text": "md5",
+                      "markdown": "`md5`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "abe0662902751f87588bf176c92920106fc6cd26649a57c8b1edc8805d4aa9bb",
+            "glog-pfp-ruleFileCode/v1": "c7efde322d7c6f24a70e6a5b2a1c0ae22f474f348eb2a5e35c9f31542f8b94d6"
+          },
+          "fingerprints": {
+            "glog-fp-ruleFileCode/v1": "c7efde322d7c6f24a70e6a5b2a1c0ae22f474f348eb2a5e35c9f31542f8b94d6"
+          },
+          "fixes": [
+            {
+              "description": {
+                "text": "A weak or broken hash algorithm was detected."
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "core/authHandler.js"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charOffset": 1815,
+                        "charLength": 3
+                      },
+                      "insertedContent": {
+                        "text": "sha512"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "description": {
+                "text": "A weak or broken hash algorithm was detected."
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "core/authHandler.js"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charOffset": 1815,
+                        "charLength": 3
+                      },
+                      "insertedContent": {
+                        "text": "sha256"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "Critical",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Cryptography.BannedHashAlgorithm"
+            ]
+          }
+        },
+        {
+          "ruleId": "c01f2e30-ff1e-354d-a93d-0454bcb3725f",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Evaluation of Untrusted Data Vulnerability"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/appHandler.js"
+                },
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 18,
+                  "endLine": 198,
+                  "endColumn": 4,
+                  "charOffset": 4092,
+                  "charLength": 23,
+                  "snippet": {
+                    "text": "eval(req.body.eqn)\n\t\t})",
+                    "rendered": {
+                      "text": "eval(req.body.eqn)\n\t\t})",
+                      "markdown": "`eval(req.body.eqn)\n\t\t})`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "2f7f9d49a3c5d376560fcab7887d866c106e50fd5b936328215e3e2f6efb782f",
+            "glog-pfp-ruleFileCode/v1": "03b1185bb2b5f9cf188335dce08976365884112ee6bc669a4f96798afe1ace57"
+          },
+          "fingerprints": {
+            "glog-fp-ruleFileCode/v1": "03b1185bb2b5f9cf188335dce08976365884112ee6bc669a4f96798afe1ace57"
+          },
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Python.DangerousFunctionCall",
+              "JavaScript.DangerousFunctionCall",
+              "TypeScript.DangerousFunctionCall",
+              "PHP.DangerousFunctionCall"
+            ]
+          }
         },
         {
           "ruleId": "266a70bf-e91c-31bb-8b33-7be81335992b",
@@ -829,76 +851,39 @@
           "properties": {}
         },
         {
-          "ruleId": "d6457d2b-7a66-357e-8fae-e1e7b70dc714",
+          "ruleId": "2a87e4aa-7bb1-34b0-9997-53cf7be00f72",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Unsecured Web Address"
+            "text": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "views/common/head.ejs"
+                  "uri": "viewsproducts.ejs",
+                  "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 4,
-                  "startColumn": 17,
-                  "endLine": 4,
-                  "endColumn": 48,
-                  "charOffset": 144,
-                  "charLength": 31,
+                  "startLine": 51,
+                  "startColumn": 21,
+                  "endLine": 51,
+                  "endColumn": 51,
                   "snippet": {
-                    "text": "http://html5shim.googlecode.com",
-                    "rendered": {
-                      "text": "http://html5shim.googlecode.com",
-                      "markdown": "`http://html5shim.googlecode.com`"
-                    }
-                  },
-                  "sourceLanguage": "javascript"
+                    "text": "                <td><%- output.products[i].code %></td>"
+                  }
                 }
               }
             }
           ],
           "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "822d847710650e6c6d1c3c0bbf5d14a47bd606fc8ecbb11cdd82f3af459b6de1",
-            "glog-pfp-ruleFileCode/v1": "bd01b04ed23facc46d0c0f9925597136f96fe7b29870dd1b0f9a694732adfd29"
+            "glog-pfp-ruleFileLineCode/v1": "bfe3e35028bf3bb3ce2e325b8d2677ea396bf53c0861f81683b029007673a466",
+            "glog-pfp-ruleFileCode/v1": "391f064b994f7d714b47ab8b5f5e5e113195c2983cd464af01bb4cce371eb91d"
           },
           "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "bd01b04ed23facc46d0c0f9925597136f96fe7b29870dd1b0f9a694732adfd29"
+            "glog-fp-ruleFileCode/v1": "391f064b994f7d714b47ab8b5f5e5e113195c2983cd464af01bb4cce371eb91d"
           },
-          "fixes": [
-            {
-              "description": {
-                "text": "An HTTP-based URL without TLS was detected."
-              },
-              "artifactChanges": [
-                {
-                  "artifactLocation": {
-                    "uri": "views/common/head.ejs"
-                  },
-                  "replacements": [
-                    {
-                      "deletedRegion": {
-                        "charOffset": 144,
-                        "charLength": 31
-                      },
-                      "insertedContent": {
-                        "text": "https://html5shim.googlecode.com"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "properties": {
-            "DevSkimSeverity": "Moderate",
-            "DevSkimConfidence": "High",
-            "tags": [
-              "ThreatModel.Integration.HTTP"
-            ]
-          }
+          "properties": {}
         },
         {
           "ruleId": "9dcfa863-6df2-331a-be98-ba857c5348e9",
@@ -1041,6 +1026,78 @@
             "glog-fp-ruleFileCode/v1": "b8e780f7c5497012692a92044ea0b8e243083b754f0d5dd809ceb04b50da0f7f"
           },
           "properties": {}
+        },
+        {
+          "ruleId": "d6457d2b-7a66-357e-8fae-e1e7b70dc714",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Unsecured Web Address"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "views/common/head.ejs"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 17,
+                  "endLine": 4,
+                  "endColumn": 48,
+                  "charOffset": 144,
+                  "charLength": 31,
+                  "snippet": {
+                    "text": "http://html5shim.googlecode.com",
+                    "rendered": {
+                      "text": "http://html5shim.googlecode.com",
+                      "markdown": "`http://html5shim.googlecode.com`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "822d847710650e6c6d1c3c0bbf5d14a47bd606fc8ecbb11cdd82f3af459b6de1",
+            "glog-pfp-ruleFileCode/v1": "bd01b04ed23facc46d0c0f9925597136f96fe7b29870dd1b0f9a694732adfd29"
+          },
+          "fingerprints": {
+            "glog-fp-ruleFileCode/v1": "bd01b04ed23facc46d0c0f9925597136f96fe7b29870dd1b0f9a694732adfd29"
+          },
+          "fixes": [
+            {
+              "description": {
+                "text": "An HTTP-based URL without TLS was detected."
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "views/common/head.ejs"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charOffset": 144,
+                        "charLength": 31
+                      },
+                      "insertedContent": {
+                        "text": "https://html5shim.googlecode.com"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "Moderate",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "ThreatModel.Integration.HTTP"
+            ]
+          }
         },
         {
           "ruleId": "45081c46-bcda-384a-96d1-9d48f46fb46a",
