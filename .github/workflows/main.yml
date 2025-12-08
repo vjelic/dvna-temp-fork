@@ -23,7 +23,7 @@ jobs:
         with:
           lang: 'javascript'
           debug: 'true'
-          client: 'demo'
+          client: 'test.dev'
           upload: 'true'
           github-token: ${{ secrets.PAT_TOKEN }}
           glog-token: ${{ secrets.GLOG_TOKEN }}
