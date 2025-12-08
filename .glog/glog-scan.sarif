@@ -34,39 +34,25 @@
               }
             },
             {
-              "id": "21ea3123-3174-3d79-b784-74a27a5252e9",
-              "name": "\"Postgresql Server Vulnerability to MITN Attacks due to Disabled TLS and Sequelize's Non-Enforcement of TLS\"",
+              "id": "c01f2e30-ff1e-354d-a93d-0454bcb3725f",
+              "name": "Evaluation of Untrusted Data Vulnerability",
               "helpUri": "https://www.glog.ai/",
               "help": {
                 "text": "",
-                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/319.html](https://cwe.mitre.org/data/definitions/319.html)\n"
+                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet_in_Java.html](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet_in_Java.html)\n, [https://cwe.mitre.org/data/definitions/95.html](https://cwe.mitre.org/data/definitions/95.html)\n"
               },
               "properties": {
                 "cwe": [
                   {
-                    "id": "CWE-319",
-                    "url": "https://cwe.mitre.org/data/definitions/319.html"
+                    "id": "CWE-95",
+                    "url": "https://cwe.mitre.org/data/definitions/95.html"
                   }
                 ],
-                "severity": "MEDIUM",
+                "severity": "LOW",
                 "kind": "FAIL",
                 "tags": [
-                  "CWE-319"
+                  "CWE-95"
                 ]
-              }
-            },
-            {
-              "id": "b319a673-91d8-3d13-87d2-3721942851a7",
-              "name": "Doubtful Remark",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://cheatsheetseries.owasp.org/](https://cheatsheetseries.owasp.org/)\n"
-              },
-              "properties": {
-                "cwe": [],
-                "severity": "LOW",
-                "kind": "FAIL"
               }
             },
             {
@@ -92,47 +78,17 @@
               }
             },
             {
-              "id": "c01f2e30-ff1e-354d-a93d-0454bcb3725f",
-              "name": "Evaluation of Untrusted Data Vulnerability",
+              "id": "b319a673-91d8-3d13-87d2-3721942851a7",
+              "name": "Doubtful Remark",
               "helpUri": "https://www.glog.ai/",
               "help": {
                 "text": "",
-                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet_in_Java.html](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet_in_Java.html)\n, [https://cwe.mitre.org/data/definitions/95.html](https://cwe.mitre.org/data/definitions/95.html)\n"
+                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://cheatsheetseries.owasp.org/](https://cheatsheetseries.owasp.org/)\n"
               },
               "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-95",
-                    "url": "https://cwe.mitre.org/data/definitions/95.html"
-                  }
-                ],
+                "cwe": [],
                 "severity": "LOW",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-95"
-                ]
-              }
-            },
-            {
-              "id": "3b9b1a65-6df9-34c9-865c-92e11c2bd3f6",
-              "name": "\"Remote Code Execution Vulnerability via Object Deserialization in serialize.unserialize Function\"",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/Resources](https://owasp.org/www-community/vulnerabilities/Resources)\n, [https://owasp.org/www-community/vulnerabilities/Top_10_2017](https://owasp.org/www-community/vulnerabilities/Top_10_2017)\n, [https://owasp.org/www-community/vulnerabilities/Cheat_Sheet](https://owasp.org/www-community/vulnerabilities/Cheat_Sheet)\n, [https://cwe.mitre.org/data/definitions/502.html](https://cwe.mitre.org/data/definitions/502.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-502",
-                    "url": "https://cwe.mitre.org/data/definitions/502.html"
-                  }
-                ],
-                "severity": "MEDIUM",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-502"
-                ]
+                "kind": "FAIL"
               }
             },
             {
@@ -154,6 +110,28 @@
                 "kind": "FAIL",
                 "tags": [
                   "CWE-327"
+                ]
+              }
+            },
+            {
+              "id": "21ea3123-3174-3d79-b784-74a27a5252e9",
+              "name": "\"Postgresql Server Vulnerability to MITN Attacks due to Disabled TLS and Sequelize's Non-Enforcement of TLS\"",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/319.html](https://cwe.mitre.org/data/definitions/319.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-319",
+                    "url": "https://cwe.mitre.org/data/definitions/319.html"
+                  }
+                ],
+                "severity": "MEDIUM",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-319"
                 ]
               }
             },
@@ -180,117 +158,29 @@
               }
             },
             {
+              "id": "3b9b1a65-6df9-34c9-865c-92e11c2bd3f6",
+              "name": "\"Remote Code Execution Vulnerability via Object Deserialization in serialize.unserialize Function\"",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/Resources](https://owasp.org/www-community/vulnerabilities/Resources)\n, [https://owasp.org/www-community/vulnerabilities/Top_10_2017](https://owasp.org/www-community/vulnerabilities/Top_10_2017)\n, [https://owasp.org/www-community/vulnerabilities/Cheat_Sheet](https://owasp.org/www-community/vulnerabilities/Cheat_Sheet)\n, [https://cwe.mitre.org/data/definitions/502.html](https://cwe.mitre.org/data/definitions/502.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                  }
+                ],
+                "severity": "MEDIUM",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-502"
+                ]
+              }
+            },
+            {
               "id": "c8c2e05e-e17f-3430-9a4a-0551ccd35be6",
-              "name": "Vulnerable Hash Algorithm",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/327.html](https://cwe.mitre.org/data/definitions/327.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-327",
-                    "url": "https://cwe.mitre.org/data/definitions/327.html"
-                  }
-                ],
-                "severity": "HIGH",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-327"
-                ]
-              }
-            },
-            {
-              "id": "a8c344fb-e0b9-3bd0-beba-bc74b30a9708",
-              "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://owasp.org/www-community/vulnerabilities/and_CWE_Resources](https://owasp.org/www-community/vulnerabilities/and_CWE_Resources)\n, [https://cwe.mitre.org/data/definitions/79.html](https://cwe.mitre.org/data/definitions/79.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-79",
-                    "url": "https://cwe.mitre.org/data/definitions/79.html"
-                  }
-                ],
-                "severity": "MEDIUM",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-79"
-                ]
-              }
-            },
-            {
-              "id": "266a70bf-e91c-31bb-8b33-7be81335992b",
-              "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/Resources](https://owasp.org/www-community/vulnerabilities/Resources)\n, [https://cwe.mitre.org/data/definitions/79.html](https://cwe.mitre.org/data/definitions/79.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-79",
-                    "url": "https://cwe.mitre.org/data/definitions/79.html"
-                  }
-                ],
-                "severity": "MEDIUM",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-79"
-                ]
-              }
-            },
-            {
-              "id": "90408b14-a210-379b-a93e-9fa7a1965540",
-              "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/and_CWE_Resources](https://owasp.org/www-community/vulnerabilities/and_CWE_Resources)\n, [https://cwe.mitre.org/data/definitions/79.html](https://cwe.mitre.org/data/definitions/79.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-79",
-                    "url": "https://cwe.mitre.org/data/definitions/79.html"
-                  }
-                ],
-                "severity": "MEDIUM",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-79"
-                ]
-              }
-            },
-            {
-              "id": "2a87e4aa-7bb1-34b0-9997-53cf7be00f72",
-              "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
-              "helpUri": "https://www.glog.ai/",
-              "help": {
-                "text": "",
-                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/79.html](https://cwe.mitre.org/data/definitions/79.html)\n"
-              },
-              "properties": {
-                "cwe": [
-                  {
-                    "id": "CWE-79",
-                    "url": "https://cwe.mitre.org/data/definitions/79.html"
-                  }
-                ],
-                "severity": "MEDIUM",
-                "kind": "FAIL",
-                "tags": [
-                  "CWE-79"
-                ]
-              }
-            },
-            {
-              "id": "ba115ef7-d9a2-341d-83d4-44b83813a964",
               "name": "Vulnerable Hash Algorithm",
               "helpUri": "https://www.glog.ai/",
               "help": {
@@ -334,6 +224,50 @@
               }
             },
             {
+              "id": "266a70bf-e91c-31bb-8b33-7be81335992b",
+              "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/Resources](https://owasp.org/www-community/vulnerabilities/Resources)\n, [https://cwe.mitre.org/data/definitions/79.html](https://cwe.mitre.org/data/definitions/79.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-79",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                  }
+                ],
+                "severity": "MEDIUM",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-79"
+                ]
+              }
+            },
+            {
+              "id": "ba115ef7-d9a2-341d-83d4-44b83813a964",
+              "name": "Vulnerable Hash Algorithm",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)\n, [https://cwe.mitre.org/data/definitions/327.html](https://cwe.mitre.org/data/definitions/327.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-327",
+                    "url": "https://cwe.mitre.org/data/definitions/327.html"
+                  }
+                ],
+                "severity": "HIGH",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-327"
+                ]
+              }
+            },
+            {
               "id": "d6457d2b-7a66-357e-8fae-e1e7b70dc714",
               "name": "Unsecured Web Address",
               "helpUri": "https://www.glog.ai/",
@@ -352,6 +286,50 @@
                 "kind": "FAIL",
                 "tags": [
                   "CWE-319"
+                ]
+              }
+            },
+            {
+              "id": "a8c344fb-e0b9-3bd0-beba-bc74b30a9708",
+              "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://owasp.org/www-community/vulnerabilities/and_CWE_Resources](https://owasp.org/www-community/vulnerabilities/and_CWE_Resources)\n, [https://cwe.mitre.org/data/definitions/79.html](https://cwe.mitre.org/data/definitions/79.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-79",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                  }
+                ],
+                "severity": "MEDIUM",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-79"
+                ]
+              }
+            },
+            {
+              "id": "90408b14-a210-379b-a93e-9fa7a1965540",
+              "name": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data",
+              "helpUri": "https://www.glog.ai/",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://owasp.org/www-community/attacks/xss/](https://owasp.org/www-community/attacks/xss/)\n, [https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)\n, [https://owasp.org/www-community/vulnerabilities/and_CWE_Resources](https://owasp.org/www-community/vulnerabilities/and_CWE_Resources)\n, [https://cwe.mitre.org/data/definitions/79.html](https://cwe.mitre.org/data/definitions/79.html)\n"
+              },
+              "properties": {
+                "cwe": [
+                  {
+                    "id": "CWE-79",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                  }
+                ],
+                "severity": "MEDIUM",
+                "kind": "FAIL",
+                "tags": [
+                  "CWE-79"
                 ]
               }
             },
@@ -388,53 +366,6 @@
       },
       "language": "en-US",
       "results": [
-        {
-          "ruleId": "b319a673-91d8-3d13-87d2-3721942851a7",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Doubtful Remark"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "core/appHandler.js"
-                },
-                "region": {
-                  "startLine": 216,
-                  "startColumn": 4,
-                  "endLine": 216,
-                  "endColumn": 8,
-                  "charOffset": 4436,
-                  "charLength": 4,
-                  "snippet": {
-                    "text": "TODO",
-                    "rendered": {
-                      "text": "TODO",
-                      "markdown": "`TODO`"
-                    }
-                  },
-                  "sourceLanguage": "javascript"
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "3e6031d2abe2247529877388749f9b7bf5771496dbe016170819f51624881a95",
-            "glog-pfp-ruleFileCode/v1": "1786e4c9c7c3c20f5975529dec2bc61401fc71884bbad9edb461b7824a3f77f8"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "1786e4c9c7c3c20f5975529dec2bc61401fc71884bbad9edb461b7824a3f77f8"
-          },
-          "properties": {
-            "DevSkimSeverity": "ManualReview",
-            "DevSkimConfidence": "High",
-            "tags": [
-              "Hygiene.Comment.Suspicious"
-            ]
-          }
-        },
         {
           "ruleId": "c01f2e30-ff1e-354d-a93d-0454bcb3725f",
           "kind": "fail",
@@ -486,41 +417,6 @@
           }
         },
         {
-          "ruleId": "3b9b1a65-6df9-34c9-865c-92e11c2bd3f6",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "\"Remote Code Execution Vulnerability via Object Deserialization in serialize.unserialize Function\""
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "core/appHandler.js",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 218,
-                  "startColumn": 18,
-                  "endLine": 218,
-                  "endColumn": 81,
-                  "snippet": {
-                    "text": "\t\tvar products = serialize.unserialize(req.files.products.data.toString('utf8'))"
-                  }
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "19ca046e636ab9b91b643cee55596e145d0bb265b23cf4b159058965b1a59631",
-            "glog-pfp-ruleFileCode/v1": "2694d78e333e86293e2ad230603d47ff2fc76d9837c4c6339fcc11b47ddfe9f1"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "2694d78e333e86293e2ad230603d47ff2fc76d9837c4c6339fcc11b47ddfe9f1"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "a46d83fc-ded8-3469-8316-e0528591d6d3",
           "kind": "fail",
           "level": "warning",
@@ -552,41 +448,6 @@
           },
           "fingerprints": {
             "glog-fp-ruleFileCode/v1": "80d3eccbed4996f42ce548b61b89edd9b03ce30080bb5df056d3a04b13803488"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "21ea3123-3174-3d79-b784-74a27a5252e9",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "\"Postgresql Server Vulnerability to MITN Attacks due to Disabled TLS and Sequelize's Non-Enforcement of TLS\""
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "config/db.js",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 18,
-                  "endLine": 8,
-                  "endColumn": 2,
-                  "snippet": {
-                    "text": "module.exports = {\n  username: process.env.MYSQL_USER,\n  password: process.env.MYSQL_PASSWORD,\n  database: process.env.MYSQL_DATABASE,\n  host: process.env.MYSQL_HOST || 'mysql-db',\n  port: process.env.MYSQL_PORT || 3306,\n  dialect: 'mysql'\n}"
-                  }
-                }
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "18d42c0c0a3fd276b16c0ddc21cf987b591e2aff983815a6d35caa59e1f7545e",
-            "glog-pfp-ruleFileCode/v1": "ec8b5d556822a64dc790d948eb569e9f826c707ed332fe5e8352d56b79ceb90e"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "ec8b5d556822a64dc790d948eb569e9f826c707ed332fe5e8352d56b79ceb90e"
           },
           "properties": {}
         },
@@ -686,6 +547,53 @@
           }
         },
         {
+          "ruleId": "b319a673-91d8-3d13-87d2-3721942851a7",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Doubtful Remark"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "core/appHandler.js"
+                },
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 4,
+                  "endLine": 216,
+                  "endColumn": 8,
+                  "charOffset": 4436,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "3e6031d2abe2247529877388749f9b7bf5771496dbe016170819f51624881a95",
+            "glog-pfp-ruleFileCode/v1": "1786e4c9c7c3c20f5975529dec2bc61401fc71884bbad9edb461b7824a3f77f8"
+          },
+          "fingerprints": {
+            "glog-fp-ruleFileCode/v1": "1786e4c9c7c3c20f5975529dec2bc61401fc71884bbad9edb461b7824a3f77f8"
+          },
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
           "ruleId": "d956d5d7-fa6d-32d3-9cd0-0b60c5231067",
           "kind": "fail",
           "level": "warning",
@@ -717,6 +625,41 @@
           },
           "fingerprints": {
             "glog-fp-ruleFileCode/v1": "20d2d5415d7345438ef551832b5378d123b27b512c818cf5e44a418b55a0bd9e"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "21ea3123-3174-3d79-b784-74a27a5252e9",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "\"Postgresql Server Vulnerability to MITN Attacks due to Disabled TLS and Sequelize's Non-Enforcement of TLS\""
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/db.js",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 2,
+                  "snippet": {
+                    "text": "module.exports = {\n  username: process.env.MYSQL_USER,\n  password: process.env.MYSQL_PASSWORD,\n  database: process.env.MYSQL_DATABASE,\n  host: process.env.MYSQL_HOST || 'mysql-db',\n  port: process.env.MYSQL_PORT || 3306,\n  dialect: 'mysql'\n}"
+                  }
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "18d42c0c0a3fd276b16c0ddc21cf987b591e2aff983815a6d35caa59e1f7545e",
+            "glog-pfp-ruleFileCode/v1": "ec8b5d556822a64dc790d948eb569e9f826c707ed332fe5e8352d56b79ceb90e"
+          },
+          "fingerprints": {
+            "glog-fp-ruleFileCode/v1": "ec8b5d556822a64dc790d948eb569e9f826c707ed332fe5e8352d56b79ceb90e"
           },
           "properties": {}
         },
@@ -816,37 +759,37 @@
           }
         },
         {
-          "ruleId": "a8c344fb-e0b9-3bd0-beba-bc74b30a9708",
+          "ruleId": "3b9b1a65-6df9-34c9-865c-92e11c2bd3f6",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data"
+            "text": "\"Remote Code Execution Vulnerability via Object Deserialization in serialize.unserialize Function\""
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "viewsproducts.ejs",
+                  "uri": "core/appHandler.js",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 52,
-                  "startColumn": 21,
-                  "endLine": 52,
-                  "endColumn": 51,
+                  "startLine": 218,
+                  "startColumn": 18,
+                  "endLine": 218,
+                  "endColumn": 81,
                   "snippet": {
-                    "text": "                <td><%- output.products[i].tags %></td>"
+                    "text": "\t\tvar products = serialize.unserialize(req.files.products.data.toString('utf8'))"
                   }
                 }
               }
             }
           ],
           "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "d4bd7b6a00025988eab1b6da920b542f80cc571eb4705a924003e078ba0d5d8f",
-            "glog-pfp-ruleFileCode/v1": "48d5ab9e67e84fab3898522b673254fe4a02dbbd62d4668112b3838996273cfe"
+            "glog-pfp-ruleFileLineCode/v1": "19ca046e636ab9b91b643cee55596e145d0bb265b23cf4b159058965b1a59631",
+            "glog-pfp-ruleFileCode/v1": "2694d78e333e86293e2ad230603d47ff2fc76d9837c4c6339fcc11b47ddfe9f1"
           },
           "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "48d5ab9e67e84fab3898522b673254fe4a02dbbd62d4668112b3838996273cfe"
+            "glog-fp-ruleFileCode/v1": "2694d78e333e86293e2ad230603d47ff2fc76d9837c4c6339fcc11b47ddfe9f1"
           },
           "properties": {}
         },
@@ -886,74 +829,76 @@
           "properties": {}
         },
         {
-          "ruleId": "90408b14-a210-379b-a93e-9fa7a1965540",
+          "ruleId": "d6457d2b-7a66-357e-8fae-e1e7b70dc714",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data"
+            "text": "Unsecured Web Address"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "viewsproducts.ejs",
-                  "uriBaseId": "%SRCROOT%"
+                  "uri": "views/common/head.ejs"
                 },
                 "region": {
-                  "startLine": 49,
-                  "startColumn": 21,
-                  "endLine": 49,
-                  "endColumn": 49,
+                  "startLine": 4,
+                  "startColumn": 17,
+                  "endLine": 4,
+                  "endColumn": 48,
+                  "charOffset": 144,
+                  "charLength": 31,
                   "snippet": {
-                    "text": "                <td><%- output.products[i].id %></td>"
-                  }
+                    "text": "http://html5shim.googlecode.com",
+                    "rendered": {
+                      "text": "http://html5shim.googlecode.com",
+                      "markdown": "`http://html5shim.googlecode.com`"
+                    }
+                  },
+                  "sourceLanguage": "javascript"
                 }
               }
             }
           ],
           "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "4b96aae9f32b8c747d4508dea40518aa06952d54cc5f694d14a8ca60480214ff",
-            "glog-pfp-ruleFileCode/v1": "b8e780f7c5497012692a92044ea0b8e243083b754f0d5dd809ceb04b50da0f7f"
+            "glog-pfp-ruleFileLineCode/v1": "822d847710650e6c6d1c3c0bbf5d14a47bd606fc8ecbb11cdd82f3af459b6de1",
+            "glog-pfp-ruleFileCode/v1": "bd01b04ed23facc46d0c0f9925597136f96fe7b29870dd1b0f9a694732adfd29"
           },
           "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "b8e780f7c5497012692a92044ea0b8e243083b754f0d5dd809ceb04b50da0f7f"
+            "glog-fp-ruleFileCode/v1": "bd01b04ed23facc46d0c0f9925597136f96fe7b29870dd1b0f9a694732adfd29"
           },
-          "properties": {}
-        },
-        {
-          "ruleId": "2a87e4aa-7bb1-34b0-9997-53cf7be00f72",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data"
-          },
-          "locations": [
+          "fixes": [
             {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "viewsproducts.ejs",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 51,
-                  "startColumn": 21,
-                  "endLine": 51,
-                  "endColumn": 51,
-                  "snippet": {
-                    "text": "                <td><%- output.products[i].code %></td>"
-                  }
+              "description": {
+                "text": "An HTTP-based URL without TLS was detected."
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "views/common/head.ejs"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "charOffset": 144,
+                        "charLength": 31
+                      },
+                      "insertedContent": {
+                        "text": "https://html5shim.googlecode.com"
+                      }
+                    }
+                  ]
                 }
-              }
+              ]
             }
           ],
-          "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "bfe3e35028bf3bb3ce2e325b8d2677ea396bf53c0861f81683b029007673a466",
-            "glog-pfp-ruleFileCode/v1": "391f064b994f7d714b47ab8b5f5e5e113195c2983cd464af01bb4cce371eb91d"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "391f064b994f7d714b47ab8b5f5e5e113195c2983cd464af01bb4cce371eb91d"
-          },
-          "properties": {}
+          "properties": {
+            "DevSkimSeverity": "Moderate",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "ThreatModel.Integration.HTTP"
+            ]
+          }
         },
         {
           "ruleId": "9dcfa863-6df2-331a-be98-ba857c5348e9",
@@ -1028,76 +973,74 @@
           }
         },
         {
-          "ruleId": "d6457d2b-7a66-357e-8fae-e1e7b70dc714",
+          "ruleId": "a8c344fb-e0b9-3bd0-beba-bc74b30a9708",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Unsecured Web Address"
+            "text": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "views/common/head.ejs"
+                  "uri": "viewsproducts.ejs",
+                  "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 4,
-                  "startColumn": 17,
-                  "endLine": 4,
-                  "endColumn": 48,
-                  "charOffset": 144,
-                  "charLength": 31,
+                  "startLine": 52,
+                  "startColumn": 21,
+                  "endLine": 52,
+                  "endColumn": 51,
                   "snippet": {
-                    "text": "http://html5shim.googlecode.com",
-                    "rendered": {
-                      "text": "http://html5shim.googlecode.com",
-                      "markdown": "`http://html5shim.googlecode.com`"
-                    }
-                  },
-                  "sourceLanguage": "javascript"
+                    "text": "                <td><%- output.products[i].tags %></td>"
+                  }
                 }
               }
             }
           ],
           "partialFingerprints": {
-            "glog-pfp-ruleFileLineCode/v1": "822d847710650e6c6d1c3c0bbf5d14a47bd606fc8ecbb11cdd82f3af459b6de1",
-            "glog-pfp-ruleFileCode/v1": "bd01b04ed23facc46d0c0f9925597136f96fe7b29870dd1b0f9a694732adfd29"
+            "glog-pfp-ruleFileLineCode/v1": "d4bd7b6a00025988eab1b6da920b542f80cc571eb4705a924003e078ba0d5d8f",
+            "glog-pfp-ruleFileCode/v1": "48d5ab9e67e84fab3898522b673254fe4a02dbbd62d4668112b3838996273cfe"
           },
           "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "bd01b04ed23facc46d0c0f9925597136f96fe7b29870dd1b0f9a694732adfd29"
+            "glog-fp-ruleFileCode/v1": "48d5ab9e67e84fab3898522b673254fe4a02dbbd62d4668112b3838996273cfe"
           },
-          "fixes": [
+          "properties": {}
+        },
+        {
+          "ruleId": "90408b14-a210-379b-a93e-9fa7a1965540",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "EJS Template XSS Vulnerability Detected Due to Unescaped External Data"
+          },
+          "locations": [
             {
-              "description": {
-                "text": "An HTTP-based URL without TLS was detected."
-              },
-              "artifactChanges": [
-                {
-                  "artifactLocation": {
-                    "uri": "views/common/head.ejs"
-                  },
-                  "replacements": [
-                    {
-                      "deletedRegion": {
-                        "charOffset": 144,
-                        "charLength": 31
-                      },
-                      "insertedContent": {
-                        "text": "https://html5shim.googlecode.com"
-                      }
-                    }
-                  ]
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "viewsproducts.ejs",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 21,
+                  "endLine": 49,
+                  "endColumn": 49,
+                  "snippet": {
+                    "text": "                <td><%- output.products[i].id %></td>"
+                  }
                 }
-              ]
+              }
             }
           ],
-          "properties": {
-            "DevSkimSeverity": "Moderate",
-            "DevSkimConfidence": "High",
-            "tags": [
-              "ThreatModel.Integration.HTTP"
-            ]
-          }
+          "partialFingerprints": {
+            "glog-pfp-ruleFileLineCode/v1": "4b96aae9f32b8c747d4508dea40518aa06952d54cc5f694d14a8ca60480214ff",
+            "glog-pfp-ruleFileCode/v1": "b8e780f7c5497012692a92044ea0b8e243083b754f0d5dd809ceb04b50da0f7f"
+          },
+          "fingerprints": {
+            "glog-fp-ruleFileCode/v1": "b8e780f7c5497012692a92044ea0b8e243083b754f0d5dd809ceb04b50da0f7f"
+          },
+          "properties": {}
         },
         {
           "ruleId": "45081c46-bcda-384a-96d1-9d48f46fb46a",
