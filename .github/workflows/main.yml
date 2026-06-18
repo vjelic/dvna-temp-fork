@@ -14,7 +14,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: glogai/glog-action
-          token: ${{ secrets.PAT_TOKEN }}
           path: .github/glog-action
           ref: main
 
